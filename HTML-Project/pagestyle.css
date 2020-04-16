@@ -1,0 +1,29 @@
+.contactme {
+text-align:center;
+font-size: 20px;
+}
+
+.header {
+  text-align: center;
+}
+/*hides the bulletpoints in the resume lists*/
+ul {
+  list-style-type: none; 
+}
+/*sets background of the page*/
+body {
+ background-image: url("Images/Wallpaper.jpg");
+  background-size: cover;
+  color: white;
+}
+/*hides the actual boxes while keeping content visible*/
+/*there is a similar edit in the bootstrap.css file to make the cards transparent*/
+.jumbotron {
+  background-color: transparent;
+}
+/* Taken from W3Schools */
+.image {
+  
+  display: block;
+  margin: auto;
+}
